@@ -18,3 +18,6 @@ The programme names and contact details are examples. Replace them with approved
 
 ## Suggested Git practical
 Follow `GIT_GITHUB_GUIDE.md` to demonstrate commits, a feature branch, a merge, and pushing to GitHub.
+
+## Assignment update
+The project includes a contact page feature branch merged into `main` in the local demonstration repository.
