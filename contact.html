@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Department of Computing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">💻 Department of Computing</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="about.html">About Us</a>
+      <a href="programmes.html">Programmes</a><a class="active" href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="page-heading"><p class="eyebrow">GET IN TOUCH</p><h1>Contact Us</h1><p>Have a question about computing or our sample programme list? Send a message below.</p></section>
+    <section class="contact-layout">
+      <div class="content-panel"><h2>Department Office</h2><p><strong>Email:</strong> computing@example.edu</p><p><strong>Office hours:</strong> Monday–Friday, 9:00 a.m.–4:00 p.m.</p><p class="small-note">Replace this sample contact information with your institution's official details before submission.</p></div>
+      <form class="content-panel contact-form" id="contactForm">
+        <label for="name">Full name</label><input id="name" name="name" type="text" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+        <button class="button" type="submit">Send Message</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 Department of Computing. Student demonstration website.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
