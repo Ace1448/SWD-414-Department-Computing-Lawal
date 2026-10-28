@@ -1,0 +1,9 @@
+Example local Git history created in the supplied project:
+
+* 0fd5380 Document project update
+*   115a2f3 Merge contact page feature
+|\  
+| * 31581e9 Build contact page
+|/  
+* 161d5d2 Improve homepage content
+* e31c73b Create initial department website pages
